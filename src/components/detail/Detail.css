@@ -1,0 +1,116 @@
+.detail {
+  flex: 1;
+}
+div.user-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom: 1px solid #dddddd35;
+  padding: 20px 10px;
+}
+div.user-detail img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+div.title > p {
+  font-size: 14px;
+}
+div.user-detail p {
+  font-size: 13px;
+}
+div.info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+div.info div.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.info div.title img {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(17, 25, 40, 0.3);
+  padding: 8px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+div.photos div.photo-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+div.photos div.photo-item p {
+  font-size: 12px;
+  color: lightgrey;
+}
+div.detail {
+  overflow-y: scroll;
+}
+div.detail::-webkit-scrollbar {
+  width: 2px;
+  height: 10px;
+  background-color: #dddddd35;
+  color: white;
+}
+div.photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.photos div.photo-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+div.content-detail {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+  flex-direction: column;
+}
+div.photos img.download {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(17, 25, 40, 0.3);
+  padding: 5px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+/* #hide-me {
+  display: none;
+} */
+button.block-user,
+button.log-out {
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: rgba(230, 74, 105, 0.7);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+button.block-user:hover {
+  background-color: rgba(230, 74, 105, 0.9);
+}
+button.log-out {
+  background-color: #1a73e8;
+  padding: 8px 20px;
+}
